@@ -1,4 +1,4 @@
-package com.anurag;
+package com.anurag.day1;
 
 import java.util.Scanner;
 
