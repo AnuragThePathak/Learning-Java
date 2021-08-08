@@ -10,5 +10,7 @@ public class SimpleInterest {
         int R = input.nextInt();
         int I=P*R*t;
         System.out.println("Simple Interest will be "+I);
+
+        input.close();
     }
 }

@@ -12,5 +12,7 @@ public class InputTaking {
             sum+=n;
         }while (n!=0);
         System.out.println(sum);
+
+        sc.close();
     }
 }

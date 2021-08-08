@@ -12,5 +12,7 @@ public class Factors {
             }
         }
         System.out.println();
+
+        sc.close();
     }
 }

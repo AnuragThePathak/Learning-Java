@@ -15,5 +15,7 @@ public class BiggerNumber {
         } else {
             System.out.println("Both are equal");
         }
+
+        sc.close();
     }
 }
