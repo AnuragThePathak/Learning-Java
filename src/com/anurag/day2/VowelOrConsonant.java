@@ -21,9 +21,10 @@ public class VowelOrConsonant {
             }
 
 //            Alternatively we can also use modern switch case in jdk 14 onwards
+//            switch (ch) {
 //            case 'a','e','i','o','u' -> System.out.println("Vowel");
 //            default -> System.out.println("Consonant");
-
+//            }
         } else {
             System.out.println("Not a alphabet");
         }
