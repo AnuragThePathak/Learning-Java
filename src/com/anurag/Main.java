@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+//        variable names must contain _, $, letter, number only, can't start with number
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int factorial = 1;
