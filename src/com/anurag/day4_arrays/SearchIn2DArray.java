@@ -17,6 +17,9 @@ public class SearchIn2DArray {
             for (var j:ar[i]){
                 if (j == target) {
                     return new int[] {i,j};
+//                    the below method is also correct as
+//                    int[] ans={i,j};
+//                    return ans;
                 }
             }
         }
