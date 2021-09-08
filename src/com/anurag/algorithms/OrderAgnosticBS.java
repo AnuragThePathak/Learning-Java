@@ -10,7 +10,7 @@ public class OrderAgnosticBS {
 
         Scanner sc = new Scanner(System.in);
         int target = sc.nextInt();
-        System.out.println(target + " is in index no. " + binarySearch(arr, target)
+        System.out.println(target + " is in index no. " + binarySearch(ar, target)
                 + " of" + " array " + Arrays.toString(ar));
     }
 
