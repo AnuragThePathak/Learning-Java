@@ -6,9 +6,8 @@ public class FindingSquare {
     }
 
     public static int mySqrt(int x) {
-        if (x == 0 || x == 1) {
-            return x;
-        }
+        if (x == 0 || x == 1) return x;
+
 
         long start = 2;
         long end = x / 2;

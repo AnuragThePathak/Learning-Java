@@ -33,6 +33,13 @@ public class Ceiling {
             } else {
                 return mid;
             }
+
+//            In ceiling and floor problem we can't use condition like end = mid like
+//            we did in bitonic array because here once we get target == arr[mid] the
+//            loop will be running indefinitely. Whereas in bitonic array it's possible
+//            because there we are no condition which satisfies and make the loop in
+//            stay in same phase. It always keeps evaluating two adjacent numbers mid
+//            and mid+1.
         }
 
 //        If arr[mid] is never equal to zero then just before the condition being
