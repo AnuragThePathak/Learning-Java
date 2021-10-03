@@ -11,5 +11,9 @@ public class ImplicitConversionToString {
         System.out.println('c' + "Hello");
 
         System.out.println(4 + 'e' + "Hello");
+
+//        The two below are conversion to character not String.
+        System.out.println('a' + 9);
+        System.out.println(9 + 'a');
     }
 }
