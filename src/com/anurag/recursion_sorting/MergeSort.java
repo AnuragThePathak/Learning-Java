@@ -3,6 +3,7 @@ package com.anurag.recursion_sorting;
 import java.util.Arrays;
 
 public class MergeSort {
+
     public static void main(String[] args) {
         int[] arr = { 2, 1, 6, 3, 0, 9, 5};
         System.out.println(Arrays.toString(sort(arr)));
